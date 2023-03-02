@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <script src="temperature converter.js" ></script>
+        <link rel="stylesheet" href="Temperature Converter.css">
+        <title>Temperature</title>
+        <meta name="viewport" content="width=device-width ,initial-scale=0.1">
+
+    </head>
+  <body>
+    <h1   align="center">Temperature Convertor</h1><br><br><br><br>
+    <div id="converter">
+        <table cellspacing='0'>
+            <tr >
+            <th><label for="Temp">Temperature</label></th>
+            <th><lable for="opt">From</lable></th>
+            </tr>
+          
+            <tr>
+            <th><input type="number" id="Temp" name="temperature" value="0"></th>
+            <th><select id="opt" size="" >
+                <option id="celcius" value="celcius">°C (Celcius)</option>
+                <option id="fehrenhait" value="fehrenhait">°F (Fehrenhait)</option>
+                <option id="kelvin" value="kelvin">°K (Kelvin)</option>
+            </select></th>    
+        </tr>
+        <tr>
+            <th><br></th>
+           
+        </tr>
+        <tr>
+            <th><label for="res">Result</label></th>
+            <th><lable for="to">To</lable></th>      
+        </tr>
+        <tr>
+            <th><input type="number" id="res" name="result" value="0"></th>     
+            <th><select id="to" size="">
+                <option id="celcius" value="celcius">°C (Celcius)</option>
+                <option id="fehrenhait" value="fehrenhait">°F (Fehrenhait)</option>
+                <option id="kelvin" value="kelvin">°K (Kelvin)</option>
+            </select></th>       
+        </tr>
+        <tr>
+            <th><br></th>
+           
+        </tr>
+        <tr >
+            <td><hr size="5px" color="black"></td><th><hr size="5px" color="black"></th>
+        </tr>
+        <tr>
+            <p id="convertalign"><th><button id="result" onclick="convertto()"  >Convert</button></th></p>
+        </tr>
+        </table>    
+    </div>
+   
+  </body>
+</html>
