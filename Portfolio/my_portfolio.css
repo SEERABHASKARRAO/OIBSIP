@@ -1,0 +1,425 @@
+body{
+    background-image: linear-gradient(rgb(34, 58, 64),rgb(102, 70, 102));
+    color:rgb(248, 244, 244);
+    /* font-family: papyrus; */
+   
+}
+*{
+    box-sizing: border-box;
+   padding:0%;
+   margin:0%;
+}
+header{
+    
+    position:fixed;
+    width: 100%;
+    max-width:100%;
+    height:auto;
+    /* padding-bottom:20px; */
+    
+   display:flex;
+   justify-content: space-between;
+    background-color: rgb(113, 122, 217);
+}
+.me{
+    font-family:papyrus;
+    display:flex;
+   
+  padding-top:25px;
+  padding-bottom:25px;
+  
+}
+.title{
+    margin-top: 23px;
+    font-family:papyrus;
+    font-weight:300;
+    margin-left:50px;
+    
+}
+.names{
+    display:flex;
+    
+}
+
+.dots{
+    position:relative;
+    margin-top:20px;
+    margin-right:140px;
+    margin-left:50px;
+    float:right;
+    line-height:10px;
+    
+    color:white; 
+    padding-left: 0px;
+   
+}
+.dash h1{
+    transform:scale(3,1); 
+}
+.index{
+   display:none;
+   
+}
+.index li:hover{
+    background-color: rgb(32, 109, 177);
+}
+header .index ul{
+    width:150px;
+    margin-top:10px;
+    list-style-type: none; 
+    position: absolute;
+    background-color: rgb(63, 63, 63);
+}
+.index a{
+    text-decoration: none;
+    color:rgb(253, 251, 251);
+   font-family: Arial, Helvetica, sans-serif;
+}
+.dots .index ul li{
+    padding: 12px 8px;
+    font-size: larger;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+.dots:hover{
+    cursor:pointer;
+
+}
+.dots:hover .index{
+    display: block;
+}
+section{
+    padding-top:90px;
+
+}
+.my{
+    padding-top:40px;
+    padding-bottom:40px;
+    background-color: transparent;
+    text-align: center;
+}
+.imgs{
+    border: 2px solid white;
+    display:block;
+   background-color: rgb(4, 4, 4);
+  width:900px;
+}
+img{ 
+    float:left;
+    width:100%;
+    height: 680px;
+    display: inline-flex;
+}
+
+.about{
+    border: 2px solid white;
+    display:block;
+    float:right;
+    background-image: linear-gradient(rgb(28, 12, 12),rgb(44, 49, 40),rgb(28, 12, 12));
+    width:100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.aboutme{
+    display:flex;
+    height:auto;
+   
+}
+.about p{
+    margin:50px 50px 50px 50px;
+    text-align: center;
+    font-size: larger;
+}
+.have{  
+    display:grid;
+    justify-content: center;
+    background-image:linear-gradient(rgb(26, 36, 51),rgb(43, 30, 34));
+}
+
+ .have  button{
+    width:200px;
+    height:200px;
+    font-family: Georgia, serif;
+    /* margin-left:140px; */
+    margin-bottom:55px;
+    margin-top:30px;
+    font-size: large;
+   
+    color: rgb(255, 255, 255);
+}
+
+.python{
+    background-image: url("python.png");
+    background-repeat:no-repeat;
+    background-size:90%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.pss{
+    background-image: url("pss.png");
+    background-repeat:no-repeat;
+    background-size:110%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.dsa{
+    background-image: url("dsa.png");
+    background-repeat:no-repeat;
+    background-size:120%;
+    background-position:-30px;
+
+    margin-left: 50px;
+}
+.html{
+    background-image: url("html.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.css{
+    background-image: url("css.png");
+    background-repeat:no-repeat;
+    background-size:150%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.ml{
+    background-image: url("ml.png");
+    background-repeat:no-repeat;
+    background-size:150%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.sql{
+    background-image: url("sql.png");
+    background-repeat:no-repeat;
+    background-size:120%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+
+.have .python:hover{
+    background-image: url("good.png");
+    background-size: 100%;
+    transition: 0.3s;
+}
+.have .pss:hover{
+  background-image: url("inter.png");
+  background-size: 100%;
+    transition: 0.3s;
+}
+.have .dsa:hover{
+  background-image: url("inter.png");
+  background-size: 110%;
+  background-position: 10%;
+    transition: 0.3s;
+}
+.have .html:hover{
+
+  background-image: url("good.png");
+  background-size: 100%;
+  transition: 0.5s;
+}
+.have .css:hover{
+  background-image: url("good.png");
+  background-size: 100%;
+  transition: 0.5s;
+}
+.have .ml:hover{
+    background-image: url("inter.png");
+    background-size: 100%;
+    transition: 0.5s;
+  }
+  .have .sql:hover{
+    background-image: url("good.png");
+    background-size: 100%;
+    transition: 0.5s;
+  }
+ 
+
+.intern{
+    /* display:block; */
+    margin-left: 12%;
+}
+.pro {
+    
+    /* display:block;
+    margin-left: 20%; */
+    padding-bottom: 50px;
+} 
+.done{
+    display:grid;
+    justify-content: center;
+}
+.done h1{
+   text-align: center;
+}
+
+.done button{
+    width:200px;
+    height:200px;
+    font-family: Georgia, serif;
+    margin-top:30px;
+    
+    font-size: large;
+  
+    color: rgb(255, 255, 255);
+}
+.done button:hover{
+    
+    cursor:pointer;
+   transition: 0.8s;
+   width:200px;
+   height:200px;
+   
+   text-shadow: 200px solid white;
+}
+
+.done h4{
+    display:none;
+}
+.have button h4{
+    display: none;
+    color:rgb(14, 14, 14);
+    font-size: larger;
+}
+.done .sales:hover{
+      background-image: url("smart.jpg");
+}
+.done .oasis:hover{
+    background-image: url("front.jpg");
+}
+.done .compiler:hover{
+    background-image: url("comp.png");
+}
+.done .Web:hover{
+
+    background-image: url("full.jpg");
+    background-size: 150%;
+}
+.done .CCC:hover{
+    background-image: url("dbms.jpg");
+    background-size: 100%;
+}
+
+
+
+.intern h1{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.pro h1{
+    margin-left: 30%;
+}
+.sales{
+    background-image: url("salesforce.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.oasis{
+    background-image: url("oasis.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.compiler{
+    background-image: url("compiler.png");
+    background-repeat:no-repeat;
+    background-size:110%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.CCC{
+    background-image: url("ccc.png");
+    background-repeat:no-repeat;
+    background-size:175%;
+    background-position: 40%;
+    margin-left: 50px;
+}
+.Web{
+    background-image: url("web.png");
+    background-repeat:no-repeat;
+    background-size:120%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.achieve th img{
+    width:100%;
+    height: 300px;
+}
+.achieve td img{
+  width:100%;
+  height:150px;
+}
+.hack{
+    margin-top:5%;
+    display:block;
+
+    margin-left:15%;
+    margin-bottom: 50px;
+}
+.contact{
+    display:grid;
+    justify-content: center;
+}
+.contact button{
+    width:350px;
+    height:150px;
+    font-family: Georgia, serif;
+    margin-top:30px;
+    
+    font-size: large;
+   
+    color: rgb(255, 255, 255);
+}
+.contact .links{
+   
+    margin-bottom: 50px;
+}
+
+.gmail{
+    background-image: url("gmail.png");
+    background-repeat:no-repeat;
+    background-size:110%;
+    background-position: 50%;
+    margin-left: 50px;
+}
+.li{
+    background-image: url("linkedin.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    margin-left: 50px;
+}
+.Mobile{
+    background-image: url("phone.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position: 50%;
+    margin-left: 50px;
+    
+}
+.links button:hover{
+    cursor:pointer;
+   transition: 0.8s;
+   width:400px;
+   height:150px;
+   background-image: linear-gradient(grey,rgb(250, 248, 248));
+   text-shadow: 200px solid white;
+}
+.links button h4{
+    display: none;
+    color:rgb(14, 14, 14);
+    font-size: larger;
+}
+.links button:hover h4{
+      display:inline;
+}
+.links a{
+    text-decoration: none;
+    font-size: larger;
+}
